@@ -36,4 +36,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=tahyd_sonar-java-mysql_71209b45-7637-4b64-8a4e-228741a0514f -Dsonar.projectName='sonar-java-mysql'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=tahyd_sonar-java-mysql_8e7e5015-1789-43f7-bae6-f511a8ffc460 -Dsonar.projectName='sonar-java-mysql'
